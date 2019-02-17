@@ -1,4 +1,7 @@
 package MooX::ChainedAttributes::Role::GenerateAccessor;
+
+$MooX::ChainedAttributes::Role::GenerateAccessor::VERSION = '0.06';
+
 use Moo::Role;
 
 around is_simple_set => sub {
