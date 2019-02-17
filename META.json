@@ -48,7 +48,7 @@
       },
       "test" : {
          "requires" : {
-            "Test::Simple" : "0.94"
+            "Test2::V0" : "0.000094"
          }
       }
    },
