@@ -1,10 +1,8 @@
-=pod
-
-=head1 NAME
+# NAME
 
 MooX::ChainedAttributes - Make your attributes chainable.
 
-=head1 SYNOPSIS
+# SYNOPSIS
 
     package Foo;
     use Moo;
@@ -29,43 +27,35 @@ MooX::ChainedAttributes - Make your attributes chainable.
     my $foo = Foo->new();
     $foo->name('Fred')->who(); # My name is Fred!
 
-=head1 DESCRIPTION
+# DESCRIPTION
 
 This module exists for your method chaining enjoyment.  It
 was originally developed in order to support the porting of
-L<MooseX::Attribute::Chained> using classes to L<Moo>.
+[MooseX::Attribute::Chained](https://metacpan.org/pod/MooseX::Attribute::Chained) using classes to [Moo](https://metacpan.org/pod/Moo).
 
-In L<Moose> you would write:
+In [Moose](https://metacpan.org/pod/Moose) you would write:
 
     package Bar;
     use Moose;
     use MooseX::Attribute::Chained;
     has baz => ( is=>'rw', traits=>['Chained'] );
 
-To port the above to L<Moo> just change it to:
+To port the above to [Moo](https://metacpan.org/pod/Moo) just change it to:
 
     package Bar;
     use Moo;
     use MooX::ChainedAttributes;
     has baz => ( is=>'rw', chained=>1 );
 
-=head1 AUTHOR
+# AUTHOR
 
 Aran Clary Deltac <bluefeet@gmail.com>
 
-=head1 CONTRIBUTORS
+# CONTRIBUTORS
 
-=over
+- Graham Knop <haarg@haarg.org>
 
-=item *
-
-Graham Knop <haarg@haarg.org>
-
-=back
-
-=head1 LICENSE
+# LICENSE
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
-
-=cut
