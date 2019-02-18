@@ -1,6 +1,6 @@
 package MooX::ChainedAttributes::Role::GenerateAccessor;
 
-$MooX::ChainedAttributes::Role::GenerateAccessor::VERSION = '0.06';
+$MooX::ChainedAttributes::Role::GenerateAccessor::VERSION = '0.07';
 
 use Moo::Role;
 

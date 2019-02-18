@@ -64,7 +64,7 @@
          "web" : "https://github.com/bluefeet/MooX-ChainedAttributes"
       }
    },
-   "version" : "0.06",
+   "version" : "0.07",
    "x_contributors" : [
       "Aran Deltac <aran@ziprecruiter.com>",
       "Graham Knop <haarg@haarg.org>"

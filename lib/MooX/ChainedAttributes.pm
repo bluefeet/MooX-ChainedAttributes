@@ -1,6 +1,6 @@
 package MooX::ChainedAttributes;
 
-$MooX::ChainedAttributes::VERSION = '0.06';
+$MooX::ChainedAttributes::VERSION = '0.07';
 
 =head1 NAME
 
