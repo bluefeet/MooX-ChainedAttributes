@@ -1,3 +1,4 @@
+requires 'perl' => '5.008001';
 requires 'Moo' => 1.004005;
 requires 'strictures' => '2.000000';
 
