@@ -1,5 +1,6 @@
 package MooX::ChainedAttributes;
-
+use 5.008001;
+use strictures 2;
 our $VERSION = '0.07';
 
 =head1 NAME
@@ -52,8 +53,6 @@ To port the above to L<Moo> just change it to:
     has baz => ( is=>'rw', chained=>1 );
 
 =cut
-
-use strictures 2;
 
 use Moo ();
 use Moo::Role ();
