@@ -42,7 +42,9 @@
       },
       "runtime" : {
          "requires" : {
+            "Carp" : "0",
             "Moo" : "1.004005",
+            "Moo::Role" : "1.004005",
             "perl" : "5.008001",
             "strictures" : "2.000000"
          }
