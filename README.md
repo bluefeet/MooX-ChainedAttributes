@@ -55,11 +55,15 @@ has baz => ( is=>'rw', chained=>1 );
 
 # AUTHOR
 
+```
 Aran Clary Deltac <bluefeet@gmail.com>
+```
 
 # CONTRIBUTORS
 
-- Graham Knop <haarg@haarg.org>
+```
+Graham Knop <haarg@haarg.org>
+```
 
 # LICENSE
 

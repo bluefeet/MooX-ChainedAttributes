@@ -1,7 +1,9 @@
 package MooX::ChainedAttributes;
 use 5.008001;
 use strictures 2;
-our $VERSION = '0.07';
+our $VERSION = '0.08';
+
+=encoding utf8
 
 =head1 NAME
 
@@ -87,19 +89,15 @@ __END__
 
 =head1 AUTHOR
 
-Aran Clary Deltac <bluefeet@gmail.com>
+    Aran Clary Deltac <bluefeet@gmail.com>
 
 =head1 CONTRIBUTORS
 
-=over
-
-=item *
-
-Graham Knop <haarg@haarg.org>
-
-=back
+    Graham Knop <haarg@haarg.org>
 
 =head1 LICENSE
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
+
+=cut
